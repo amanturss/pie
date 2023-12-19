@@ -1,0 +1,43 @@
+.saat{
+width: 550px;
+height: 250px;
+position: relative;
+padding: 10px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 200px;
+left: 500px;
+}
+.saat:hover .saatt img{
+	transform: rotate(3600deg);
+	transition: 5s;
+}
+.saatt{
+	width: 500px;
+	position: absolute;
+	padding: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: -120px;
+	left: 30px;
+	transform: rotate(30deg);
+} 
+.saat:hover .chipi img{
+	transform: rotate(3600deg);
+	transition: 65s;}
+.chipi{
+	width: 300px;
+	position: absolute;
+	padding: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 100px;
+	left: 100px;
+	transform: rotate(-120deg);
+}
